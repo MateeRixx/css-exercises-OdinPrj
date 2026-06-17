@@ -1,1 +1,12 @@
-/* Add CSS Styling */
+
+.oddNumber{
+    background-color: rgb(224, 72, 118);
+    font-family:'Verdana','DejaVu Sans',sans-serif ;
+
+}
+
+#Second-Element{
+    color: blue;
+    font-size: 36px;
+    
+}
