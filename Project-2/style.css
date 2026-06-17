@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+
+a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.Section1 {
+  background-color: #1f2937;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.right_container {
+  margin-top: 15px;
+  width: 50%;
+  text-align: center;
+}
+
+.hero_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero_left {
+  display: flex;
+  flex-direction: column;
+  margin: 200px;
+  gap: 15px;
+}
+
+button {
+  height: 40px;
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.div_card-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+
+.section-3 {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+}
+.p2 {
+  text-align: right;
+  margin-right: 10%;
+  margin-top: 10px;
+}
+
+.section-2 {
+  padding: 20px;
+}
+
+.CTA {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #3882f6;
+  height: fit-content;
+  width: fit-content;
+  gap: 30px;
+  padding: 30px;
+  margin: 100px;
+  color: white;
+  border-radius: 7px;
+}
+
+img {
+  margin-right: 20px;
+  border-radius: 4px;
+}
+
+.CTA-right > button {
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 50px;
+}
