@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Bitcount Prop Single", system-ui;
+  font-optical-sizing: auto;
+}
+
+/* From Uiverse.io by Voxybuns */
+
+.CalcultorBody {
+  background-color: #b0ba99;
+}
+.Box-button {
+  /* Variables */
+  --button_radius: 0.75em;
+  --button_color: #e8e8e8;
+  --button_outline_color: #000000;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: var(--button_radius);
+  background: var(--button_outline_color);
+  width: 120px;
+}
+
+.button_top {
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid var(--button_outline_color);
+  border-radius: var(--button_radius);
+  padding: 0.75em 1.5em;
+  background: var(--button_color);
+  color: var(--button_outline_color);
+  transform: translateY(-0.2em);
+  transition: transform 0.1s ease;
+}
+
+.Box-button:hover .button_top {
+  /* Pull the button upwards when hovered */
+  transform: translateY(-0.33em);
+}
+
+.Box-button:active .button_top {
+  /* Push the button downwards when pressed */
+  transform: translateY(0);
+}
+
+.CalcultorBody {
+  height: 400px;
+  width: 400px;
+  border: 3px solid #3038417d;
+  border-radius: 5px;
+  margin-left: 36%;
+  margin-top: 8%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.resultDisplayWindow {
+  border: 3px solid #3038417d;
+  border: 5px solid rgba(255, 255, 255, 0.781);
+  border-radius: 5px;
+  height: 100px;
+  margin: 10px;
+  background-color: #1a312c;
+  color: #b0ba99;
+}
+
+.numbersGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 20px;
+  margin-top: 10%;
+  margin-left: 10px; /* Creates 3 columns of equal width */
+}
+
+/* From Uiverse.io by adamgiebl */
+.Number-button {
+  background: #fbca1f;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+  box-shadow: 0.1em 0.1em;
+  cursor: pointer;
+}
+
+.Number-button:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
+}
+
+.Number-button:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+
+.OperationButtonGrid {
+  margin-top: 55px;
+  margin-left: 70px;
+}
+
+.ButtonContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.ArthiematicButtonGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 30px;
+}
