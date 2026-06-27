@@ -13,8 +13,12 @@
    
     <div class="CalcultorBody">
       <div class="resultDisplayWindow">
-        <span style=" background-color: #1A312C;
-    color: #B0BA99;">25+9</span>
+        <span id="result" style=" background-color: #1A312C;
+    color: #B0BA99;">
+    
+    <p id="answer"></p>
+  
+  </span>
       </div>
 
       <div class="ButtonContainer">
@@ -28,12 +32,14 @@
           <button class="Number-button">1</button>
           <button class="Number-button">2</button>
           <button class="Number-button">3</button>
+          <button class="Number-button">0</button>
+
         </div>
 
         <div class="OperationButtonGrid">
           <div class="clearButtonGrid">
-            <button class="Box-button">
-              <span class="button_top"> Clear </span>
+            <button id="clearallButton" class="Box-button ">
+              <span > Clear </span>
             </button>
           </div>
           <div class="ArthiematicButtonGrid">
@@ -41,9 +47,13 @@
             <button class="Number-button" id="minus">-</button>
             <button class="Number-button" id="multiply">x</button>
             <button class="Number-button" id="divide">%</button>
+            <button class="Number-button" id="Equlato">=</button>
+
           </div>
         </div>
       </div>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
